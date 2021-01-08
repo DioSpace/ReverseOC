@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  ObjectiveC
+//
+//  Created by hello on 2019/2/19.
+//  Copyright © 2019 William. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/*
+ 预编译文件,存放各种宏,可以全局导入文件
+ **/
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define statusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+
+#define CELLID @"MyCell"
+
+
+#import "Common.h"
+#import <Masonry.h>
+
+#endif /* PrefixHeader_pch */

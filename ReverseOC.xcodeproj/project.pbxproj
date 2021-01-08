@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5313C6E25DD36D96AE395CA9 /* Pods_ReverseOC_ReverseOCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F4203EAAA1587B69CF5D9C /* Pods_ReverseOC_ReverseOCUITests.framework */; };
+		5F75E818259C155000ED8790 /* HookTargetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F75E816259C155000ED8790 /* HookTargetVC.m */; };
+		5F75E819259C155000ED8790 /* HookTargetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F75E817259C155000ED8790 /* HookTargetVC.xib */; };
+		5F80D1E025A81DD500A63227 /* PacketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80D1DE25A81DD500A63227 /* PacketViewController.m */; };
+		5F80D1E125A81DD500A63227 /* PacketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F80D1DF25A81DD500A63227 /* PacketViewController.xib */; };
+		5F80D1FD25A841AF00A63227 /* cert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5F80D1FB25A841AF00A63227 /* cert.pem */; };
+		5F80D1FE25A841AF00A63227 /* cert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5F80D1FC25A841AF00A63227 /* cert.cer */; };
+		5F9920112595212E009F938C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9920102595212E009F938C /* AppDelegate.m */; };
+		5F99201C25952130009F938C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F99201B25952130009F938C /* Assets.xcassets */; };
+		5F99201F25952130009F938C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F99201D25952130009F938C /* LaunchScreen.storyboard */; };
+		5F99202225952130009F938C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99202125952130009F938C /* main.m */; };
+		5F99202C25952131009F938C /* ReverseOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99202B25952131009F938C /* ReverseOCTests.m */; };
+		5F99203725952131009F938C /* ReverseOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99203625952131009F938C /* ReverseOCUITests.m */; };
+		5F992063259523A2009F938C /* MyNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F992060259523A2009F938C /* MyNavgationController.m */; };
+		5F992064259523A2009F938C /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F992062259523A2009F938C /* MyTabBarController.m */; };
+		5F9920762595246B009F938C /* HookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99206A2595246A009F938C /* HookViewController.m */; };
+		5F9920772595246B009F938C /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F99206B2595246A009F938C /* OtherViewController.xib */; };
+		5F9920782595246B009F938C /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99206C2595246A009F938C /* DeviceViewController.m */; };
+		5F9920792595246B009F938C /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99206D2595246A009F938C /* OtherViewController.m */; };
+		5F99207A2595246B009F938C /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99206E2595246A009F938C /* NetworkViewController.m */; };
+		5F99207B2595246B009F938C /* DeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9920702595246A009F938C /* DeviceViewController.xib */; };
+		5F99207C2595246B009F938C /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9920722595246A009F938C /* NetworkViewController.xib */; };
+		5F99207D2595246B009F938C /* HookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9920742595246B009F938C /* HookViewController.xib */; };
+		5F99208E259526A3009F938C /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99208D259526A3009F938C /* Common.m */; };
+		5F9920A725952878009F938C /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9920A525952878009F938C /* ProxyViewController.m */; };
+		5F9920A825952878009F938C /* ProxyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9920A625952878009F938C /* ProxyViewController.xib */; };
+		5F9920EC25954E8D009F938C /* DeviceIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9920EA25954E8D009F938C /* DeviceIDViewController.m */; };
+		5F9920ED25954E8D009F938C /* DeviceIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9920EB25954E8D009F938C /* DeviceIDViewController.xib */; };
+		5F9920F925954F2E009F938C /* BGKeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9920F825954F2E009F938C /* BGKeychainTool.m */; };
+		5F9921012596686B009F938C /* JailbreakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9920FF2596686B009F938C /* JailbreakViewController.m */; };
+		5F9921022596686B009F938C /* JailbreakViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9921002596686B009F938C /* JailbreakViewController.xib */; };
+		5F99211125966E0D009F938C /* JailbreakTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F99211025966E0D009F938C /* JailbreakTool.m */; };
+		5F9921192597A618009F938C /* ReverseCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9921172597A618009F938C /* ReverseCodeVC.m */; };
+		5F99211A2597A618009F938C /* ReverseCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9921182597A618009F938C /* ReverseCodeVC.xib */; };
+		79B46277839942CFD01BCC8A /* Pods_ReverseOCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528E1EF04C6DC70B43A5A47C /* Pods_ReverseOCTests.framework */; };
+		FAACD0C148EFE7C562932B1D /* Pods_ReverseOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC7AE5B53489EE898012CC1 /* Pods_ReverseOC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F99202825952131009F938C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9920042595212E009F938C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F99200B2595212E009F938C;
+			remoteInfo = ReverseOC;
+		};
+		5F99203325952131009F938C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9920042595212E009F938C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F99200B2595212E009F938C;
+			remoteInfo = ReverseOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15187834A29CCEDBB1A10A6A /* Pods-ReverseOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseOC.release.xcconfig"; path = "Target Support Files/Pods-ReverseOC/Pods-ReverseOC.release.xcconfig"; sourceTree = "<group>"; };
+		1F779D85FB7413FCE242DB5A /* Pods-ReverseOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseOCTests.debug.xcconfig"; path = "Target Support Files/Pods-ReverseOCTests/Pods-ReverseOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36A5CB4A55EF1FE18DC2CEBA /* Pods-ReverseOC-ReverseOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseOC-ReverseOCUITests.debug.xcconfig"; path = "Target Support Files/Pods-ReverseOC-ReverseOCUITests/Pods-ReverseOC-ReverseOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		528E1EF04C6DC70B43A5A47C /* Pods_ReverseOCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReverseOCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F75E815259C155000ED8790 /* HookTargetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookTargetVC.h; sourceTree = "<group>"; };
+		5F75E816259C155000ED8790 /* HookTargetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookTargetVC.m; sourceTree = "<group>"; };
+		5F75E817259C155000ED8790 /* HookTargetVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HookTargetVC.xib; sourceTree = "<group>"; };
+		5F80D1DD25A81DD500A63227 /* PacketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketViewController.h; sourceTree = "<group>"; };
+		5F80D1DE25A81DD500A63227 /* PacketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacketViewController.m; sourceTree = "<group>"; };
+		5F80D1DF25A81DD500A63227 /* PacketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PacketViewController.xib; sourceTree = "<group>"; };
+		5F80D1FB25A841AF00A63227 /* cert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cert.pem; sourceTree = "<group>"; };
+		5F80D1FC25A841AF00A63227 /* cert.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = cert.cer; sourceTree = "<group>"; };
+		5F99200C2595212E009F938C /* ReverseOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F99200F2595212E009F938C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F9920102595212E009F938C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F99201B25952130009F938C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F99201E25952130009F938C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F99202025952130009F938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F99202125952130009F938C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F99202725952131009F938C /* ReverseOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F99202B25952131009F938C /* ReverseOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseOCTests.m; sourceTree = "<group>"; };
+		5F99202D25952131009F938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F99203225952131009F938C /* ReverseOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F99203625952131009F938C /* ReverseOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseOCUITests.m; sourceTree = "<group>"; };
+		5F99203825952131009F938C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F99205F259523A2009F938C /* MyNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavgationController.h; sourceTree = "<group>"; };
+		5F992060259523A2009F938C /* MyNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavgationController.m; sourceTree = "<group>"; };
+		5F992061259523A2009F938C /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		5F992062259523A2009F938C /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		5F99206A2595246A009F938C /* HookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HookViewController.m; sourceTree = "<group>"; };
+		5F99206B2595246A009F938C /* OtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
+		5F99206C2595246A009F938C /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		5F99206D2595246A009F938C /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		5F99206E2595246A009F938C /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
+		5F99206F2595246A009F938C /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		5F9920702595246A009F938C /* DeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceViewController.xib; sourceTree = "<group>"; };
+		5F9920712595246A009F938C /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		5F9920722595246A009F938C /* NetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
+		5F9920732595246B009F938C /* HookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HookViewController.h; sourceTree = "<group>"; };
+		5F9920742595246B009F938C /* HookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HookViewController.xib; sourceTree = "<group>"; };
+		5F9920752595246B009F938C /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
+		5F99208225952604009F938C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5F99208C259526A3009F938C /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		5F99208D259526A3009F938C /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		5F9920A425952878009F938C /* ProxyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyViewController.h; sourceTree = "<group>"; };
+		5F9920A525952878009F938C /* ProxyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyViewController.m; sourceTree = "<group>"; };
+		5F9920A625952878009F938C /* ProxyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProxyViewController.xib; sourceTree = "<group>"; };
+		5F9920E925954E8D009F938C /* DeviceIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceIDViewController.h; sourceTree = "<group>"; };
+		5F9920EA25954E8D009F938C /* DeviceIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceIDViewController.m; sourceTree = "<group>"; };
+		5F9920EB25954E8D009F938C /* DeviceIDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceIDViewController.xib; sourceTree = "<group>"; };
+		5F9920F725954F2E009F938C /* BGKeychainTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGKeychainTool.h; sourceTree = "<group>"; };
+		5F9920F825954F2E009F938C /* BGKeychainTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGKeychainTool.m; sourceTree = "<group>"; };
+		5F9920FE2596686B009F938C /* JailbreakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailbreakViewController.h; sourceTree = "<group>"; };
+		5F9920FF2596686B009F938C /* JailbreakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakViewController.m; sourceTree = "<group>"; };
+		5F9921002596686B009F938C /* JailbreakViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JailbreakViewController.xib; sourceTree = "<group>"; };
+		5F99210F25966E0D009F938C /* JailbreakTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailbreakTool.h; sourceTree = "<group>"; };
+		5F99211025966E0D009F938C /* JailbreakTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakTool.m; sourceTree = "<group>"; };
+		5F9921162597A618009F938C /* ReverseCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseCodeVC.h; sourceTree = "<group>"; };
+		5F9921172597A618009F938C /* ReverseCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseCodeVC.m; sourceTree = "<group>"; };
+		5F9921182597A618009F938C /* ReverseCodeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReverseCodeVC.xib; sourceTree = "<group>"; };
+		75DACF518099A98821890A36 /* Pods-ReverseOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseOCTests.release.xcconfig"; path = "Target Support Files/Pods-ReverseOCTests/Pods-ReverseOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DC7AE5B53489EE898012CC1 /* Pods_ReverseOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReverseOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B110B65F919BFB68C941E6 /* Pods-ReverseOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseOC.debug.xcconfig"; path = "Target Support Files/Pods-ReverseOC/Pods-ReverseOC.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F4203EAAA1587B69CF5D9C /* Pods_ReverseOC_ReverseOCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReverseOC_ReverseOCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8EB1323A9F3DB12DE9DCBD /* Pods-ReverseOC-ReverseOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseOC-ReverseOCUITests.release.xcconfig"; path = "Target Support Files/Pods-ReverseOC-ReverseOCUITests/Pods-ReverseOC-ReverseOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F9920092595212E009F938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAACD0C148EFE7C562932B1D /* Pods_ReverseOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99202425952131009F938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B46277839942CFD01BCC8A /* Pods_ReverseOCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99202F25952131009F938C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5313C6E25DD36D96AE395CA9 /* Pods_ReverseOC_ReverseOCUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F75E806259C150300ED8790 /* hook */ = {
+			isa = PBXGroup;
+			children = (
+				5F75E815259C155000ED8790 /* HookTargetVC.h */,
+				5F75E816259C155000ED8790 /* HookTargetVC.m */,
+				5F75E817259C155000ED8790 /* HookTargetVC.xib */,
+			);
+			path = hook;
+			sourceTree = "<group>";
+		};
+		5F80D1D625A81BAC00A63227 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				5F80D1DD25A81DD500A63227 /* PacketViewController.h */,
+				5F80D1DE25A81DD500A63227 /* PacketViewController.m */,
+				5F80D1DF25A81DD500A63227 /* PacketViewController.xib */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		5F80D1F425A840E300A63227 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5F80D1FA25A841A200A63227 /* cer */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		5F80D1FA25A841A200A63227 /* cer */ = {
+			isa = PBXGroup;
+			children = (
+				5F80D1FC25A841AF00A63227 /* cert.cer */,
+				5F80D1FB25A841AF00A63227 /* cert.pem */,
+			);
+			path = cer;
+			sourceTree = "<group>";
+		};
+		5F9920032595212E009F938C = {
+			isa = PBXGroup;
+			children = (
+				5F99200E2595212E009F938C /* ReverseOC */,
+				5F99202A25952131009F938C /* ReverseOCTests */,
+				5F99203525952131009F938C /* ReverseOCUITests */,
+				5F99200D2595212E009F938C /* Products */,
+				AF26733584DA0DDA32C68492 /* Pods */,
+				AEDEE4E66C2E96E4AD2F05CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F99200D2595212E009F938C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F99200C2595212E009F938C /* ReverseOC.app */,
+				5F99202725952131009F938C /* ReverseOCTests.xctest */,
+				5F99203225952131009F938C /* ReverseOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F99200E2595212E009F938C /* ReverseOC */ = {
+			isa = PBXGroup;
+			children = (
+				5F80D1D625A81BAC00A63227 /* network */,
+				5F75E806259C150300ED8790 /* hook */,
+				5F9921152597A5A9009F938C /* other */,
+				5F9920A225952855009F938C /* device */,
+				5F992081259525F1009F938C /* utils */,
+				5F992069259523EE009F938C /* navigation */,
+				5F992068259523AD009F938C /* main */,
+				5F80D1F425A840E300A63227 /* resource */,
+				5F99201B25952130009F938C /* Assets.xcassets */,
+				5F99201D25952130009F938C /* LaunchScreen.storyboard */,
+				5F99202025952130009F938C /* Info.plist */,
+				5F99202125952130009F938C /* main.m */,
+			);
+			path = ReverseOC;
+			sourceTree = "<group>";
+		};
+		5F99202A25952131009F938C /* ReverseOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F99202B25952131009F938C /* ReverseOCTests.m */,
+				5F99202D25952131009F938C /* Info.plist */,
+			);
+			path = ReverseOCTests;
+			sourceTree = "<group>";
+		};
+		5F99203525952131009F938C /* ReverseOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F99203625952131009F938C /* ReverseOCUITests.m */,
+				5F99203825952131009F938C /* Info.plist */,
+			);
+			path = ReverseOCUITests;
+			sourceTree = "<group>";
+		};
+		5F992068259523AD009F938C /* main */ = {
+			isa = PBXGroup;
+			children = (
+				5F99205F259523A2009F938C /* MyNavgationController.h */,
+				5F992060259523A2009F938C /* MyNavgationController.m */,
+				5F992061259523A2009F938C /* MyTabBarController.h */,
+				5F992062259523A2009F938C /* MyTabBarController.m */,
+				5F99200F2595212E009F938C /* AppDelegate.h */,
+				5F9920102595212E009F938C /* AppDelegate.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		5F992069259523EE009F938C /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5F9920712595246A009F938C /* DeviceViewController.h */,
+				5F99206C2595246A009F938C /* DeviceViewController.m */,
+				5F9920702595246A009F938C /* DeviceViewController.xib */,
+				5F9920752595246B009F938C /* NetworkViewController.h */,
+				5F99206E2595246A009F938C /* NetworkViewController.m */,
+				5F9920722595246A009F938C /* NetworkViewController.xib */,
+				5F99206F2595246A009F938C /* OtherViewController.h */,
+				5F99206D2595246A009F938C /* OtherViewController.m */,
+				5F99206B2595246A009F938C /* OtherViewController.xib */,
+				5F9920732595246B009F938C /* HookViewController.h */,
+				5F99206A2595246A009F938C /* HookViewController.m */,
+				5F9920742595246B009F938C /* HookViewController.xib */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		5F992081259525F1009F938C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F99208C259526A3009F938C /* Common.h */,
+				5F99208D259526A3009F938C /* Common.m */,
+				5F99208225952604009F938C /* PrefixHeader.pch */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		5F9920A225952855009F938C /* device */ = {
+			isa = PBXGroup;
+			children = (
+				5F9920FD25966844009F938C /* jailbreak */,
+				5F9920E825954E5A009F938C /* DeviceID */,
+				5F9920A325952863009F938C /* proxy */,
+			);
+			path = device;
+			sourceTree = "<group>";
+		};
+		5F9920A325952863009F938C /* proxy */ = {
+			isa = PBXGroup;
+			children = (
+				5F9920A425952878009F938C /* ProxyViewController.h */,
+				5F9920A525952878009F938C /* ProxyViewController.m */,
+				5F9920A625952878009F938C /* ProxyViewController.xib */,
+			);
+			path = proxy;
+			sourceTree = "<group>";
+		};
+		5F9920E825954E5A009F938C /* DeviceID */ = {
+			isa = PBXGroup;
+			children = (
+				5F9920E925954E8D009F938C /* DeviceIDViewController.h */,
+				5F9920EA25954E8D009F938C /* DeviceIDViewController.m */,
+				5F9920EB25954E8D009F938C /* DeviceIDViewController.xib */,
+				5F9920F725954F2E009F938C /* BGKeychainTool.h */,
+				5F9920F825954F2E009F938C /* BGKeychainTool.m */,
+			);
+			path = DeviceID;
+			sourceTree = "<group>";
+		};
+		5F9920FD25966844009F938C /* jailbreak */ = {
+			isa = PBXGroup;
+			children = (
+				5F9920FE2596686B009F938C /* JailbreakViewController.h */,
+				5F9920FF2596686B009F938C /* JailbreakViewController.m */,
+				5F9921002596686B009F938C /* JailbreakViewController.xib */,
+				5F99210F25966E0D009F938C /* JailbreakTool.h */,
+				5F99211025966E0D009F938C /* JailbreakTool.m */,
+			);
+			path = jailbreak;
+			sourceTree = "<group>";
+		};
+		5F9921152597A5A9009F938C /* other */ = {
+			isa = PBXGroup;
+			children = (
+				5F9921162597A618009F938C /* ReverseCodeVC.h */,
+				5F9921172597A618009F938C /* ReverseCodeVC.m */,
+				5F9921182597A618009F938C /* ReverseCodeVC.xib */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		AEDEE4E66C2E96E4AD2F05CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DC7AE5B53489EE898012CC1 /* Pods_ReverseOC.framework */,
+				B8F4203EAAA1587B69CF5D9C /* Pods_ReverseOC_ReverseOCUITests.framework */,
+				528E1EF04C6DC70B43A5A47C /* Pods_ReverseOCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF26733584DA0DDA32C68492 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4B110B65F919BFB68C941E6 /* Pods-ReverseOC.debug.xcconfig */,
+				15187834A29CCEDBB1A10A6A /* Pods-ReverseOC.release.xcconfig */,
+				36A5CB4A55EF1FE18DC2CEBA /* Pods-ReverseOC-ReverseOCUITests.debug.xcconfig */,
+				FB8EB1323A9F3DB12DE9DCBD /* Pods-ReverseOC-ReverseOCUITests.release.xcconfig */,
+				1F779D85FB7413FCE242DB5A /* Pods-ReverseOCTests.debug.xcconfig */,
+				75DACF518099A98821890A36 /* Pods-ReverseOCTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F99200B2595212E009F938C /* ReverseOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F99203B25952131009F938C /* Build configuration list for PBXNativeTarget "ReverseOC" */;
+			buildPhases = (
+				6E1805EB8ADE0C925CBEB1CE /* [CP] Check Pods Manifest.lock */,
+				5F9920082595212E009F938C /* Sources */,
+				5F9920092595212E009F938C /* Frameworks */,
+				5F99200A2595212E009F938C /* Resources */,
+				28A18A6701FB7EED4D18A250 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseOC;
+			productName = ReverseOC;
+			productReference = 5F99200C2595212E009F938C /* ReverseOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F99202625952131009F938C /* ReverseOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F99203E25952131009F938C /* Build configuration list for PBXNativeTarget "ReverseOCTests" */;
+			buildPhases = (
+				3E5A64EB919B3E9296CCF0FF /* [CP] Check Pods Manifest.lock */,
+				5F99202325952131009F938C /* Sources */,
+				5F99202425952131009F938C /* Frameworks */,
+				5F99202525952131009F938C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F99202925952131009F938C /* PBXTargetDependency */,
+			);
+			name = ReverseOCTests;
+			productName = ReverseOCTests;
+			productReference = 5F99202725952131009F938C /* ReverseOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F99203125952131009F938C /* ReverseOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F99204125952131009F938C /* Build configuration list for PBXNativeTarget "ReverseOCUITests" */;
+			buildPhases = (
+				F41724A5AFAA2CD2CCBC4B26 /* [CP] Check Pods Manifest.lock */,
+				5F99202E25952131009F938C /* Sources */,
+				5F99202F25952131009F938C /* Frameworks */,
+				5F99203025952131009F938C /* Resources */,
+				B55D7D8204B1517D16418EDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F99203425952131009F938C /* PBXTargetDependency */,
+			);
+			name = ReverseOCUITests;
+			productName = ReverseOCUITests;
+			productReference = 5F99203225952131009F938C /* ReverseOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F9920042595212E009F938C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5F99200B2595212E009F938C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5F99202625952131009F938C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5F99200B2595212E009F938C;
+					};
+					5F99203125952131009F938C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5F99200B2595212E009F938C;
+					};
+				};
+			};
+			buildConfigurationList = 5F9920072595212E009F938C /* Build configuration list for PBXProject "ReverseOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F9920032595212E009F938C;
+			productRefGroup = 5F99200D2595212E009F938C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F99200B2595212E009F938C /* ReverseOC */,
+				5F99202625952131009F938C /* ReverseOCTests */,
+				5F99203125952131009F938C /* ReverseOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F99200A2595212E009F938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F80D1E125A81DD500A63227 /* PacketViewController.xib in Resources */,
+				5F9921022596686B009F938C /* JailbreakViewController.xib in Resources */,
+				5F80D1FD25A841AF00A63227 /* cert.pem in Resources */,
+				5F99207D2595246B009F938C /* HookViewController.xib in Resources */,
+				5F99207C2595246B009F938C /* NetworkViewController.xib in Resources */,
+				5F9920A825952878009F938C /* ProxyViewController.xib in Resources */,
+				5F99201F25952130009F938C /* LaunchScreen.storyboard in Resources */,
+				5F9920772595246B009F938C /* OtherViewController.xib in Resources */,
+				5F75E819259C155000ED8790 /* HookTargetVC.xib in Resources */,
+				5F99211A2597A618009F938C /* ReverseCodeVC.xib in Resources */,
+				5F99207B2595246B009F938C /* DeviceViewController.xib in Resources */,
+				5F99201C25952130009F938C /* Assets.xcassets in Resources */,
+				5F9920ED25954E8D009F938C /* DeviceIDViewController.xib in Resources */,
+				5F80D1FE25A841AF00A63227 /* cert.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99202525952131009F938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99203025952131009F938C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28A18A6701FB7EED4D18A250 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReverseOC/Pods-ReverseOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReverseOC/Pods-ReverseOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReverseOC/Pods-ReverseOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E5A64EB919B3E9296CCF0FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReverseOCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E1805EB8ADE0C925CBEB1CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReverseOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55D7D8204B1517D16418EDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReverseOC-ReverseOCUITests/Pods-ReverseOC-ReverseOCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReverseOC-ReverseOCUITests/Pods-ReverseOC-ReverseOCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReverseOC-ReverseOCUITests/Pods-ReverseOC-ReverseOCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41724A5AFAA2CD2CCBC4B26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReverseOC-ReverseOCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F9920082595212E009F938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9920762595246B009F938C /* HookViewController.m in Sources */,
+				5F99211125966E0D009F938C /* JailbreakTool.m in Sources */,
+				5F9920112595212E009F938C /* AppDelegate.m in Sources */,
+				5F9921192597A618009F938C /* ReverseCodeVC.m in Sources */,
+				5F9920F925954F2E009F938C /* BGKeychainTool.m in Sources */,
+				5F9920EC25954E8D009F938C /* DeviceIDViewController.m in Sources */,
+				5F9921012596686B009F938C /* JailbreakViewController.m in Sources */,
+				5F99207A2595246B009F938C /* NetworkViewController.m in Sources */,
+				5F9920A725952878009F938C /* ProxyViewController.m in Sources */,
+				5F992064259523A2009F938C /* MyTabBarController.m in Sources */,
+				5F75E818259C155000ED8790 /* HookTargetVC.m in Sources */,
+				5F99202225952130009F938C /* main.m in Sources */,
+				5F80D1E025A81DD500A63227 /* PacketViewController.m in Sources */,
+				5F9920782595246B009F938C /* DeviceViewController.m in Sources */,
+				5F99208E259526A3009F938C /* Common.m in Sources */,
+				5F9920792595246B009F938C /* OtherViewController.m in Sources */,
+				5F992063259523A2009F938C /* MyNavgationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99202325952131009F938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99202C25952131009F938C /* ReverseOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F99202E25952131009F938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99203725952131009F938C /* ReverseOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F99202925952131009F938C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F99200B2595212E009F938C /* ReverseOC */;
+			targetProxy = 5F99202825952131009F938C /* PBXContainerItemProxy */;
+		};
+		5F99203425952131009F938C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F99200B2595212E009F938C /* ReverseOC */;
+			targetProxy = 5F99203325952131009F938C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F99201D25952130009F938C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F99201E25952130009F938C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F99203925952131009F938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F99203A25952131009F938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F99203C25952131009F938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B110B65F919BFB68C941E6 /* Pods-ReverseOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37J2F4W4WM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ReverseOC/utils/PrefixHeader.pch;
+				INFOPLIST_FILE = ReverseOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.ReverseOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F99203D25952131009F938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15187834A29CCEDBB1A10A6A /* Pods-ReverseOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37J2F4W4WM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ReverseOC/utils/PrefixHeader.pch;
+				INFOPLIST_FILE = ReverseOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.ReverseOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F99203F25952131009F938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F779D85FB7413FCE242DB5A /* Pods-ReverseOCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37J2F4W4WM;
+				INFOPLIST_FILE = ReverseOCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.ReverseOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReverseOC.app/ReverseOC";
+			};
+			name = Debug;
+		};
+		5F99204025952131009F938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75DACF518099A98821890A36 /* Pods-ReverseOCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37J2F4W4WM;
+				INFOPLIST_FILE = ReverseOCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.ReverseOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReverseOC.app/ReverseOC";
+			};
+			name = Release;
+		};
+		5F99204225952131009F938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A5CB4A55EF1FE18DC2CEBA /* Pods-ReverseOC-ReverseOCUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37J2F4W4WM;
+				INFOPLIST_FILE = ReverseOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.ReverseOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReverseOC;
+			};
+			name = Debug;
+		};
+		5F99204325952131009F938C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8EB1323A9F3DB12DE9DCBD /* Pods-ReverseOC-ReverseOCUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37J2F4W4WM;
+				INFOPLIST_FILE = ReverseOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.ReverseOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReverseOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F9920072595212E009F938C /* Build configuration list for PBXProject "ReverseOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F99203925952131009F938C /* Debug */,
+				5F99203A25952131009F938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F99203B25952131009F938C /* Build configuration list for PBXNativeTarget "ReverseOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F99203C25952131009F938C /* Debug */,
+				5F99203D25952131009F938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F99203E25952131009F938C /* Build configuration list for PBXNativeTarget "ReverseOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F99203F25952131009F938C /* Debug */,
+				5F99204025952131009F938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F99204125952131009F938C /* Build configuration list for PBXNativeTarget "ReverseOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F99204225952131009F938C /* Debug */,
+				5F99204325952131009F938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F9920042595212E009F938C /* Project object */;
+}

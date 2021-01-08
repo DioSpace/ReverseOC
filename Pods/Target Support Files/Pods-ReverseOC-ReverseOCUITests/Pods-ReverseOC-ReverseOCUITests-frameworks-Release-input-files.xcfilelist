@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-ReverseOC-ReverseOCUITests/Pods-ReverseOC-ReverseOCUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework

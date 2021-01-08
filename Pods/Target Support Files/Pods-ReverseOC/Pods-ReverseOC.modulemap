@@ -1,0 +1,6 @@
+framework module Pods_ReverseOC {
+  umbrella header "Pods-ReverseOC-umbrella.h"
+
+  export *
+  module * { export * }
+}
